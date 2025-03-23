@@ -1,0 +1,43 @@
+{
+  "name": "whatsapp_nodejs_server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch \"*.ts\" --exec ts-node index.ts",
+    "test": "test"
+  },
+  "keywords": [
+    "wwebjs",
+    "whatsapp",
+    "node"
+  ],
+  "author": "xX-youssuf-Xx",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.1-alpha.3"
+  },
+  "overrides": {
+    "ws": "^8.17.1",
+    "puppeteer": "^22.8.2",
+    "puppeteer-core": "^22.8.2",
+    "rimraf": "^4.4.0",
+    "glob": "^9.3.5",
+    "inflight": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^20.17.25",
+    "@types/qrcode-terminal": "^0.12.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
