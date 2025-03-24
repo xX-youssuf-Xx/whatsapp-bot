@@ -4,6 +4,8 @@ A WhatsApp bot built with wwebjs and Node.js that sends messages to WhatsApp con
 
 The bot uses the `LocalAuth` authentication strategy, requiring persistent storage to maintain sessions.
 
+Make sure you have a powerful enough VPS , A `t3.micro` (AWS) instance can do the job (2vcpu cores , 1gb ram).
+
 ## Setup
 
 ### Local Development
