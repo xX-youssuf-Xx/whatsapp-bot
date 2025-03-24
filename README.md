@@ -28,7 +28,7 @@ With the following JSON body:
 
 ```json
 {
-  "number": "+201012345678",
+  "phoneNumber": "+201012345678",
   "message": "MESSAGE"
 }
 ```
